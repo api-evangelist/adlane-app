@@ -66,7 +66,7 @@
 
 Adlane is an AI assistant for Google Ads and Meta Ads that helps users review campaign performance, research keywords, and draft campaigns in a single AI workspace. It offers read‑only MCP servers for Google Ads, Meta Ads, and Adlane accounts, providing tools to explore ad data, generate insights, and make informed decisions without changing campaigns.
 
-**Areas:** AI · Advertising · Google Ads · Meta Ads · MCP
+**Areas:** Artificial Intelligence · Advertising · Google Ads · Meta Ads · MCP
 
 ## Adlane on APIs.io
 
@@ -80,18 +80,24 @@ Everything profiled for Adlane is published on APIs.io rather than in this repos
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [adlane-app-mcp.yml](https://apis.io/servers/adlane-app/adlane-app-mcp-yml/)
+
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adlane App Authentication](https://apis.io/security/adlane-app/adlane-app-authentication/)
-- [Adlane App Domain Security](https://apis.io/security/adlane-app/adlane-app-domain-security/)
+- [Adlane Authentication](https://apis.io/security/adlane-app/adlane-app-authentication/)
+- [Adlane Domain Security](https://apis.io/security/adlane-app/adlane-app-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Adlane App Scopes](https://apis.io/scopes/adlane-app/adlane-app-scopes/)
+- [Adlane Scopes](https://apis.io/scopes/adlane-app/adlane-app-scopes/)
 
 ## Where to find this API
 
@@ -104,18 +110,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 18.5** — emerging · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 19.2** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
+| Discoverability | 71.7 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 16.7 |
-| Access clarity | 34.2 |
+| Access clarity | 38.3 |
 
-**Agent readiness 21.8** — agent-aware
+**Agent readiness 24.5** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -130,7 +136,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -140,8 +146,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adlane-app/](https://apis.io/providers/adlane-app/).
 
